@@ -1,9 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/go:1-1.22-bookworm
 
 USER root
-RUN chown -R vscode:vscode /workspaces/gin-container-sample
 
-USER vscode
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
